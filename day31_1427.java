@@ -18,7 +18,7 @@ public class day31_1427 {
 			input /= 10;
 		}	
 		list.add(input);
-		Collections.sort(list, Collections.reverseOrder());
+		Collections.sort(list, Collections.reverseOrder()); //reverseOrder : 
 		
 		for(int i:list) {
 			System.out.print(i);

@@ -24,7 +24,15 @@ public class day32_1181 {
 			}
 		}
 		
-		Collections.sort(list);
+		Collections.sort(list, new Comparator<String>() {
+			@Override
+			public int compare(String o1, String o2) {
+				// TODO Auto-generated method stub
+				if(o1.length() > o2.length()) return 1;
+				else if(o1.length()==o2.length()) return o1.compareTo(o2);
+				return -1;
+			}
+		});
 		
 		for(String i:list) {
 			System.out.println(i);

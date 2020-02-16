@@ -18,6 +18,7 @@ public class day50_2565 {
 			}
 		}
 		
+		// Input Array ascending order
 		Arrays.sort(value, new Comparator<int[]>() {
 
 			@Override
@@ -31,7 +32,7 @@ public class day50_2565 {
 		});
 		
 		dp[1] = 1;
-		
+		//Dynamic Programming , if(i<j) dp[i]++  ← crossed electric wire , Count++
 		for(int i=2;i<=input;i++) {
 			dp[i] = 1;
 			for(int j=1;j<i;j++) {

@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// time over, dynamic programming
+
 public class day67_1676_time_over {
 
 	public static void main(String[] args) {

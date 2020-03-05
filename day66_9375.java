@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class day66_9375 {
 	
 	/*
-	 * result = (same kind of Clothe+1) * ... * (same kind of clothe+1) - 1 + find rule & combination
+	 * result = (same kind of Clothe+1) * ... * (same kind of clothe+1) - 1 + find rule & combination , Hashmap
 	 * 
 	 */
 		
